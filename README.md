@@ -42,7 +42,7 @@ if __name__  == "__main__":
 
 案例
 ======
-PyRedisAdmin,一个用于在线查看和管理Redis数据的web应用
+[PyRedisAdmin](https://github.com/JoneXiong/PyRedisAdmin),一个用于在线查看和管理Redis数据的web应用
 
 计划
 ======
