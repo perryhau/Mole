@@ -29,6 +29,10 @@ def index():
 if __name__  == "__main__":
     run(host='localhost', port=8080)
 
+部署在uv-web运行的方法
+if __name__  == "__main__":
+    run(server='uvweb',host='0.0.0.0', port=8033)
+
 案例
 ======
 PyRedisAdmin,一个用于在线查看和管理Redis数据的web应用
