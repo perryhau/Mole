@@ -23,14 +23,21 @@ Mole 是纯python实现的一个极其轻量级的wsgi web框架。适合于喜�
 from mole import route, run
 
 @route('/')
+
 def index():
+
     return 'Hello Mole!'
 
+
 if __name__  == "__main__":
+
     run(host='localhost', port=8080)
 
+
 部署在uv-web运行的方法
+
 if __name__  == "__main__":
+
     run(server='uvweb',host='0.0.0.0', port=8033)
 
 案例
